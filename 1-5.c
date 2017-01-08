@@ -2,9 +2,7 @@
 
 main() {
   int c;
-  c = getChar();
-  while (c != EOF) {
+
+  while ((c = getchar()) != EOF)
     putchar(c);
-    c = getChar();
-  }
 }
