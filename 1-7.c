@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 main() {
-  printf("%d", EOF);
+  printf("%d\n", EOF);
 }
